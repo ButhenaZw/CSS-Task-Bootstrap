@@ -1,0 +1,14 @@
+.img{
+    width: 500px;
+    height: 500px;
+
+    background-image: url('image/images.jpeg');
+}
+@media screen and (max-width: 600px) {
+    .img{
+       background-image: url('image/lens-4k-camera-under-1000.jpeg');
+       width: 340px;
+    height: 200px;
+    ;
+    }
+}
